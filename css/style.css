@@ -58,7 +58,7 @@ h2.big {
 }
 
 .btn-large {
-  padding: 20px;
+  padding: 20px 10px;
 }
 
 .menu-inline .btn:hover {
@@ -83,6 +83,15 @@ h2.big {
   padding: 40px 70px;
 }
 
+.v-room {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.generic-text {
+  font-size: 120%;
+  line-height: 150%;
+}
 
 /* Header */
 #main-header {
@@ -206,11 +215,6 @@ h2.big {
   background: gray;
 }
 
-.info-data-text {
-  font-size: 120%;
-  line-height: 150%;
-}
-
 /* Plan */
 #plan p {
   margin-bottom: 20px;
@@ -236,4 +240,34 @@ h2.big {
   border-radius: 5px 5px 0 0;
 }
 
-/* Structure styles here*/
+/* Structure */
+#structure {
+  padding: 60px 0;
+  background-color: #d3d3d3;
+}
+
+#structure .container {
+  height: 120px;
+}
+
+.structure-title {
+  margin: 0;
+}
+
+.structure-action {
+  text-align: right;
+}
+
+.structure-action span,
+.structure-action select {
+  margin-right: 20px;
+}
+
+.structure-action select {
+  width: 200px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  color: gray;
+}
