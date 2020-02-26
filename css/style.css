@@ -83,11 +83,6 @@ h2.big {
   padding: 40px 70px;
 }
 
-.v-room {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
 .generic-text {
   font-size: 120%;
   line-height: 150%;
@@ -251,6 +246,10 @@ h2.big {
 }
 
 .structure-title {
+  padding-top: 10px;
+}
+
+.structure-title h2 {
   margin: 0;
 }
 
