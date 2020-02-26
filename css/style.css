@@ -79,6 +79,10 @@ h2.big {
   float: left;
 }
 
+.room {
+  padding: 40px 70px;
+}
+
 
 /* Header */
 #main-header {
@@ -208,9 +212,12 @@ h2.big {
 }
 
 /* Plan */
-#plan {
-  width: 1000px;
-  margin: 0 auto;
+#plan p {
+  margin-bottom: 20px;
+}
+
+#plan a {
+  color: #5586bc;
 }
 
 /* Help */
